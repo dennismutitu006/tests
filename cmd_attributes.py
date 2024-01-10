@@ -10,7 +10,7 @@ class HelloWorld(cmd.Cmd):
 	misc_header = 'misc_header'
 	undoc_header = 'undoc_header'
 
-	ruler = '-'
+	ruler = '='
 
 	def do_prompt(self, line):
 		"Change the interactive prompt"
